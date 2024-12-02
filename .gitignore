@@ -1,0 +1,10 @@
+.mypy_cache
+.venv
+*.aux
+*.bcf
+*.log
+*.out
+*.run.xml
+*.gz
+*.toc
+*.pdf
