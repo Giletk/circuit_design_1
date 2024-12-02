@@ -1,32 +1,51 @@
 <mxfile host="65bd71144e">
     <diagram id="9voUwFglnKPYooE7oWMP" name="Page-1">
-        <mxGraphModel dx="1050" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="399" dy="152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="6" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="2" target="4" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="110" y="75" as="sourcePoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="2" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=ac;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="35" width="80" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="3" value="" style="perimeter=ellipsePerimeter;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.instruments.oscilloscope;" parent="1" vertex="1">
-                    <mxGeometry x="330" y="30" width="90" height="90" as="geometry"/>
-                </mxCell>
-                <mxCell id="7" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="4" target="3" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="330" y="75" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-                    <mxGeometry x="180" y="35" width="80" height="80" as="geometry"/>
+                    <mxGeometry x="177.5" y="32.5" width="85" height="85" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="Источник питания" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                <mxCell id="8" value="1)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="40" y="120" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="Лабораторный &lt;br&gt;стенд" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="165" y="115" width="110" height="40" as="geometry"/>
+                <mxCell id="9" value="2)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="205" y="120" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="Осцилограф" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="330" y="120" width="90" height="30" as="geometry"/>
+                <mxCell id="10" value="3)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="352.5" y="120" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=ideal;" parent="1" vertex="1">
+                    <mxGeometry x="27.5" y="32.5" width="85" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="32.5" width="85" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=ellipse;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+                    <mxGeometry x="338.12" y="44.370000000000005" width="58.75" height="61.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="392.5" y="75" as="sourcePoint"/>
+                        <mxPoint x="342.5" y="75" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="382.5" y="75"/>
+                            <mxPoint x="372.5" y="95"/>
+                            <mxPoint x="362.5" y="55"/>
+                            <mxPoint x="352.5" y="75"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
